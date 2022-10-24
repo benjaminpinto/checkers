@@ -1,7 +1,7 @@
 import { board } from '../support/controllers/board.controlle'
 
 describe('Checkers game test suite', () => {
-  it('Scenario - ', () => {
+  it('Scenario 1 - Makes 2 moves and lose 1 piece', () => {
     cy.visit('/')
 
     board.getBoard().should('exist').and('be.visible')
