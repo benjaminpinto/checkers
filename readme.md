@@ -1,14 +1,14 @@
-# Deck Of Cards API Testing Project
+# Checkers Game Testing Project
 
-![Cypress Tests](https://github.com/benjaminpinto/deckOfCardsApi/actions/workflows/cypress.yml/badge.svg)
+![Cypress Tests](https://github.com/benjaminpinto/checkers/actions/workflows/cypress.yml/badge.svg)
 
-This project uses Cypress to automate API tests upon [deckofcardsapi.com application](https://deckofcardsapi.com/).
+This project uses Cypress to automate API tests upon [a Checkers game](https://www.gamesforthebrain.com/game/checkers/https://deckofcardsapi.com).
 
 This project is integrated with GitHub Actions to automate a simple CI workflow, and with GitHub Pages, to publish the last test results report.
 
 ## Report Page
 
-The last report is available at [project's GH Page](https://benjaminpinto.github.io/deckOfCardsApi).
+The last report is available at [project's GH Page](https://benjaminpinto.github.io/checkers).
 
 ## Pre-requirements
 
@@ -32,6 +32,7 @@ Or, run `npm run cy:open` to open Cypress in interactive mode.
 
 - Spec files are localized at [`cypress/e2e`](/cypress/e2e/) folder;
 - Controllers files are organized at [`support/controllers`](cypress/support/controllers) folder;
+- Page Objects files are organized at [`support/pageObjects`](cypress/support/pageObjects/) folder;
 
 ---
 
