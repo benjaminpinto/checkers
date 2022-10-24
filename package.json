@@ -1,0 +1,19 @@
+{
+  "name": "checkers",
+  "version": "1.0.0",
+  "description": "E2E Cypress test on Checkers Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --env allure=true --reporter mocha-allure-reporter",
+    "cy:open": "npx cypress open",
+    "report:generate": "npx allure generate"
+  },
+  "author": "Benjamin Pinto",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.33.1",
+    "cypress": "^10.10.0",
+    "allure-commandline": "^2.18.1",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
