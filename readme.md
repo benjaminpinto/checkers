@@ -2,7 +2,7 @@
 
 ![Cypress Tests](https://github.com/benjaminpinto/checkers/actions/workflows/cypress.yml/badge.svg)
 
-This project uses Cypress to automate API tests upon [a Checkers game](https://www.gamesforthebrain.com/game/checkers/).
+This project uses Cypress to automate E2E tests upon [a Checkers game](https://www.gamesforthebrain.com/game/checkers/).
 
 This project is integrated with GitHub Actions to automate a simple CI workflow, and with GitHub Pages, to publish the last test results report.
 
